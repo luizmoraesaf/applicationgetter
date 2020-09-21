@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ApplicationGetter/ApplicationGetter.Domain.Tests/obj
+/ApplicationGetter/ApplicationGetter.Domain.Tests/bin/Debug/netcoreapp3.1
+/ApplicationGetter/.vs/ApplicationGetter
+/.vs
+/ApplicationGetter/ApplicationGetter.WebApi.Tests/obj
+/ApplicationGetter/ApplicationGetter.WebApi.Tests/bin/Debug/netcoreapp3.1
+/ApplicationGetter/obj
+/ApplicationGetter.Application/bin/Debug/netstandard2.0
+/ApplicationGetter.Application/obj
+/ApplicationGetter.Domain/bin/Debug/netstandard2.0
+/ApplicationGetter.Domain/obj
+/ApplicationGetter.Infrastructure/bin/Debug/netstandard2.0
+/ApplicationGetter.Infrastructure/obj
+/ApplicationGetter.WebApplication/obj
+/ApplicationGetter.WebApplication/bin/Debug/netcoreapp3.1

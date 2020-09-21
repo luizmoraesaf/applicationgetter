@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationGetter.Domain", "..\ApplicationGetter.Domain\ApplicationGetter.Domain.csproj", "{0CCE7900-6A0C-4033-A249-B00B2B83450A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationGetter.Application", "..\ApplicationGetter.Application\ApplicationGetter.Application.csproj", "{0EB0EA5F-B559-45B0-ABFD-4EDDBA9D85A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationGetter.Infrastructure", "..\ApplicationGetter.Infrastructure\ApplicationGetter.Infrastructure.csproj", "{322B9886-D915-4982-B029-84A4BD56ED94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationGetter.WebApplication", "..\ApplicationGetter.WebApplication\ApplicationGetter.WebApplication.csproj", "{A170C381-FF1D-45AA-9C76-14517780616A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5860F109-B883-4CB4-8189-20F459D20D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationGetter.Domain.Tests", "ApplicationGetter.Domain.Tests\ApplicationGetter.Domain.Tests.csproj", "{890B98C3-BBB4-49C7-AA21-1C1E5312804B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationGetter.WebApi.Tests", "ApplicationGetter.WebApi.Tests\ApplicationGetter.WebApi.Tests.csproj", "{3FA8AFEB-B0ED-4795-80B8-67B9A49ED665}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "setup", "setup", "{8A520D51-7742-457B-BB38-39F814DD257E}"
+	ProjectSection(SolutionItems) = preProject
+		applicationgetter.sh = applicationgetter.sh
+		docker-compose.yml = docker-compose.yml
+		mongodb.sh = mongodb.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CCE7900-6A0C-4033-A249-B00B2B83450A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCE7900-6A0C-4033-A249-B00B2B83450A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCE7900-6A0C-4033-A249-B00B2B83450A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCE7900-6A0C-4033-A249-B00B2B83450A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB0EA5F-B559-45B0-ABFD-4EDDBA9D85A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB0EA5F-B559-45B0-ABFD-4EDDBA9D85A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB0EA5F-B559-45B0-ABFD-4EDDBA9D85A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB0EA5F-B559-45B0-ABFD-4EDDBA9D85A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322B9886-D915-4982-B029-84A4BD56ED94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322B9886-D915-4982-B029-84A4BD56ED94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322B9886-D915-4982-B029-84A4BD56ED94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322B9886-D915-4982-B029-84A4BD56ED94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A170C381-FF1D-45AA-9C76-14517780616A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A170C381-FF1D-45AA-9C76-14517780616A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A170C381-FF1D-45AA-9C76-14517780616A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A170C381-FF1D-45AA-9C76-14517780616A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890B98C3-BBB4-49C7-AA21-1C1E5312804B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890B98C3-BBB4-49C7-AA21-1C1E5312804B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890B98C3-BBB4-49C7-AA21-1C1E5312804B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890B98C3-BBB4-49C7-AA21-1C1E5312804B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA8AFEB-B0ED-4795-80B8-67B9A49ED665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA8AFEB-B0ED-4795-80B8-67B9A49ED665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA8AFEB-B0ED-4795-80B8-67B9A49ED665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA8AFEB-B0ED-4795-80B8-67B9A49ED665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{890B98C3-BBB4-49C7-AA21-1C1E5312804B} = {5860F109-B883-4CB4-8189-20F459D20D1C}
+		{3FA8AFEB-B0ED-4795-80B8-67B9A49ED665} = {5860F109-B883-4CB4-8189-20F459D20D1C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C170BC5-3134-4089-AC03-E9A237CDB7FC}
+	EndGlobalSection
+EndGlobal
