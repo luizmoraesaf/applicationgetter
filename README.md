@@ -1,8 +1,5 @@
 # Application Getter
 
-WebApi feita em dot net core, base de dados mongo para buscar aplicações.
-Arquitetura hexagonal.
-
 WebApi done with dot net core, mongoDB all set to get applications.
 Made with hexagonal architecture.
 
