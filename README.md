@@ -1,14 +1,17 @@
-# App Getter
+# Application Getter
 
 WebApi feita em dot net core, base de dados mongo para buscar aplicações.
 Arquitetura hexagonal.
 
-## Base de dados
+WebApi done with dot net core, mongoDB all set to get applications.
+Made with hexagonal architecture.
 
-Alterar a string de conexão e usuário no Infrasctructure/MongodataAccess/Context;
-Buildar todos projetos.
+## Database
 
-## Rodando no docker
+Change conection string on Infrasctructure/MongodataAccess/Context;
+and build all projects.
+
+## Running on docker
 
 ```sh
 git clone https://github.com/luizmoraesaf/applicationgetter.git
